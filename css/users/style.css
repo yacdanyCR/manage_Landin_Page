@@ -1,0 +1,33 @@
+.users__Section {
+  padding-top: 5rem;
+}
+.users__Wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.users__Title {
+  text-align: center;
+  font-size: 30px;
+}
+
+.users__Info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+.users__Info > span,
+label {
+  margin-top: 1.5rem;
+}
+.users__Wrapper {
+  padding: 1rem;
+}
+
+.users__Button {
+  text-align: center;
+  margin-top: 2rem;
+}
