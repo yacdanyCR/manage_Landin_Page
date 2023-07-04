@@ -22,3 +22,7 @@
   border-radius: 1rem;
   color: var(--Vary--Light--Gray);
 }
+
+span {
+  font-weight: 300;
+}

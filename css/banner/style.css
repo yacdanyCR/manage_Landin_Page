@@ -1,0 +1,26 @@
+.banner__Section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.banner__Image {
+  background-image: url("../../images/illustration-intro.svg");
+  height: 520px;
+  width: 520px;
+}
+
+.banner__Info > h1 {
+  font-size: 45px;
+  margin-bottom: 1.5rem;
+}
+
+.banner__Info > button {
+  margin-top: 2rem;
+}
+
+.banner__Info {
+  width: 450px;
+  padding-right: 1.5rem;
+}
