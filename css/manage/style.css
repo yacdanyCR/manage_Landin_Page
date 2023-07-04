@@ -1,0 +1,38 @@
+.manage__Section {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2.5rem;
+}
+
+.manage__Info {
+  width: 400px;
+}
+
+.manage__List {
+  width: 400px;
+}
+
+.manage--List--number {
+  padding-right: 1.5rem;
+}
+
+.manage__List--information {
+  margin-top: 10px;
+}
+
+.manage__List--Content {
+  display: flex;
+}
+
+.manage__Info > h1 {
+  font-size: 40px;
+  margin-bottom: 1rem;
+}
+
+.manage__List--information {
+  margin-top: 2rem;
+}
+
+.manage__List--information > h3 {
+  margin-bottom: 1rem;
+}
