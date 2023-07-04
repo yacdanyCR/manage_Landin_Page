@@ -1,5 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@800&family=Poppins:ital@1&family=Roboto:ital,wght@0,100;0,500;1,300;1,900&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --Bright-Red: hsl(12, 88%, 59%);
+  --Dark--Blue: hsl(228, 39%, 23%);
+  --Dark--Grayish--Blue: hsl(227, 12%, 61%);
+  --Very--Dark--Blue: hsl(233, 12%, 13%);
+  --Very--Pale--Red: hsl(13, 100%, 96%);
+  --Vary--Light--Gray: hsl(0, 0%, 98%);
+}
+
+.btn {
+  background-color: var(--Bright-Red);
+  padding: 1rem;
+  border: none;
+  border-radius: 1rem;
+  color: var(--Vary--Light--Gray);
 }
