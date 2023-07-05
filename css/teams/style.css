@@ -1,0 +1,23 @@
+.teams__Section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
+  background-color: var(--Bright-Red);
+  width: 100%;
+  padding: 2.5rem;
+}
+
+.teams__Info {
+  width: 450px;
+}
+
+.teams__Info > h1 {
+  font-size: 40px;
+}
+
+.teams--Button {
+  background-color: var(--Very--Pale--Red);
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+}
