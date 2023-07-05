@@ -11,6 +11,14 @@
   width: 520px;
 }
 
+.banner__Image--desk {
+  width: 100%;
+}
+
+.banner__Image--mobile {
+  display: none;
+}
+
 .banner__Info > h1 {
   font-size: 45px;
   margin-bottom: 1.5rem;
@@ -23,4 +31,18 @@
 .banner__Info {
   width: 450px;
   padding-right: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .banner__Section {
+    flex-direction: column-reverse;
+  }
+  .banner__Info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+  }
 }

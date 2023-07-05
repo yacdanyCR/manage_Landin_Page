@@ -31,3 +31,13 @@ label {
   text-align: center;
   margin-top: 2rem;
 }
+
+@media (max-width: 768px) {
+  .users__Wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .users__Wrapper > div {
+    padding-top: 1.5rem;
+  }
+}
