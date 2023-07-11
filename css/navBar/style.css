@@ -44,7 +44,7 @@
 .menu-button::before,
 .menu-button::after {
   display: block;
-  background-color: #fff;
+  background-color: var(--Very--Dark--Blue);
   position: absolute;
   height: 4px;
   width: 30px;
@@ -77,6 +77,9 @@
 }
 
 @media (max-width: 700px) {
+  .top-nav {
+    justify-content: space-between;
+  }
   .menu-button {
     background-image: url("../../images/icon-hamburger.svg");
   }

@@ -40,4 +40,8 @@ label {
   .users__Wrapper > div {
     padding-top: 1.5rem;
   }
+  .users__Info > span,
+  label {
+    margin-top: 0;
+  }
 }

@@ -5,11 +5,11 @@
   padding-top: 2rem;
 }
 
-.banner__Image {
+/* .banner__Image {
   background-image: url("../../images/illustration-intro.svg");
   height: 520px;
   width: 520px;
-}
+} */
 
 .banner__Image--desk {
   width: 100%;
@@ -36,6 +36,9 @@
 @media (max-width: 768px) {
   .banner__Section {
     flex-direction: column-reverse;
+  }
+  .banner__Image {
+    width: 100%;
   }
   .banner__Info {
     display: flex;
